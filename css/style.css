@@ -20,44 +20,62 @@ body {
 }
 
 #content {
-  padding: 20px;
   background: rgba(255,255,255,.85);
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+#content2 {
+  background: rgba(255,255,255,.85);
+  padding-top: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: black;
 }
 
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  color: white;
 }
 
 h2 {
   font-size: 1.5em;
-  margin-top: .5em;
+  margin-top: 0em;
 }
 
 h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
+  color:white;
 }
-
+  
 img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  border: white;
+  border-width: thick;
+  
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.25em;
+  margin-top: 0em;
 }
 
 a {
   color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
